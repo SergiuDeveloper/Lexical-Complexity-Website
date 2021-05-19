@@ -20,7 +20,7 @@ app.get("/compute", async (req, res) => {
 });
 
 ["/", "/home", "/expressions", "/text", "/presentation", "/paper", "/credits"].forEach(function (item, index) {
-	app.get("/*", (req, res) => {
+	app.get(item, (req, res) => {
 		res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
 	});
 });

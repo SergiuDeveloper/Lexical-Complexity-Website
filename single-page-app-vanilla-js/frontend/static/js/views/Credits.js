@@ -32,7 +32,7 @@ export default class extends AbstractView {
 			Source code:
 			<ul>
 			<li><a href="https://github.com/SergiuDeveloper/Lexical-Complexity---V3">Complexity prediction model (Jupyter notebook)</a></li>
-			<li><a href="https://github.com/SergiuDeveloper/TILNWebsite">Website</a></li>
+			<li><a href="https://github.com/SergiuDeveloper/Lexical-Complexity-Website">Web application</a></li>
 			</ul>
 			</p>
         `;

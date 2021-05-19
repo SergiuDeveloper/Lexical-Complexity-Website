@@ -10,7 +10,7 @@ export default class extends AbstractView {
         return `
             <h1>Credits</h1>
 			<center>
-				<img src="static/resources/University.jpg" alt="University 'Alexandru Ioan Cuza' Iasi, Faculty of Computer Science" width="30%" height="30%">
+				<img src="https://docs.google.com/uc?export=download&id=1lE0PkxTtKr0A_UAvjkXcjxc4FGsACtsy" alt="University 'Alexandru Ioan Cuza' Iasi, Faculty of Computer Science" width="30%" height="30%">
             </center>
 			<p>
 				The team that developed the application and the prediction model is comprised of:
@@ -19,7 +19,7 @@ export default class extends AbstractView {
 					<li>Sescu Alexandra</li>
 					<li>Popescu C&#259;lin</li>
 				</ul><br>
-				Coordinator: Dr. G&icirc;fu Daniela>
+				Coordinator: Dr. G&icirc;fu Daniela
 			</p>
 			<p>
 			<br>

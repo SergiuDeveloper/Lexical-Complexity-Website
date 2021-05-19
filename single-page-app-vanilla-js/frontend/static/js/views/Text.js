@@ -13,11 +13,12 @@ export default class extends AbstractView {
 				<textarea id="input-text" rows="30" cols="230" placeholder="Enter the text for which you want to compute the complexity."></textarea>
 				<center>
 				<button class="button" onclick="
-					document.getElementById('loader').style.visibility = 'visible';
 					document.getElementById('complexity-score').innerText = ''
 					text = document.getElementById('input-text').value
 					
 					if (text.length > 0) {
+						document.getElementById('loader').style.visibility = 'visible';
+						
 						var xmlHttp = new XMLHttpRequest();
 						xmlHttp.onreadystatechange = function() { 
 							if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
